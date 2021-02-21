@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #181818;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h1{
+    color: #bdbdbd;
+    font-size: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.container{
+    /* background-color: aqua; */
+    width: 65%;
+    margin: 40px auto;
+    font-family: 'Potta One', cursive;
+    
+}
+#enterText{
+    margin-top: 20px;
+    display: block;
+}
+#result{
+    /* background-color: red; */
+    margin: 30px 0;
+    font-size: 25px;
+}
+#noneResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 1rem;
+    font-size: 25px;
+}
+
+#btn{
+    margin: 15px 3px;
+    padding: 6px 9px;
+    border-radius: 9px;
+    background-color: #000000;
+    color: #bdbdbd;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+textarea{
+    font-size: 15px;
+}
+#btn:hover{
+    /* background-color: #181818; */
+    color: #949494;
+}
+@media screen and (max-width: 1100px) {
+    #enterText{
+        height: 75px;
+        width: 108%;
+    }
+    #noneResult{
+        font-size: 19px;
+    }
+   #result p{
+       font-size: 25px;
+   }
+}
+@media screen and (max-width:615px){
+    nav h1{
+        font-size: 35px;
+    }
+    #conHead{
+        font-size: 25px;
+    }
+    #enterText{
+        height: 75px;
+        width: 99%;
+    }
+    #noneResult{
+        font-size: 14px;
+    }
+    #btn{
+        font-size: 18px;
+        padding: 5px 7px;
+        margin: 11px 2px;
+    }
+    #result p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:430px){
+    nav h1{
+        font-size: 30px;
+    }
+    #noneResult{
+        font-size: 10px;
+    }
+    #btn{
+        font-size: 15px;
+        padding: 3px 5px;
+        margin: 9px 1px;
+    }
+    #conHead{
+        font-size: 18px;
+    }
+    #result p{
+        font-size: 13px;
+    }
+}

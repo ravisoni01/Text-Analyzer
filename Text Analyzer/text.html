@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=Potta+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1>Text-Analyzer WebApp</h1>
+    </nav>
+    <div class="container">
+        <h1 id="conHead">Paste Your Text Here :</h1>
+        <textarea name="enterText" id="enterText" cols="100" rows="5"></textarea>
+        <button id="btn">Submit</button>
+        <hr>
+        <div id="result">
+            <p>Total Characters present in your string is <span id="characters"></span></p>
+            <p>Total Words present in your string is <span id="words"></span></p>
+            <p>Total WhiteSpaces present in your string is <span id="spaces"></span></p>
+        </div>
+        <div id="noneResult">
+            <h1>Nothing To Show.</h1>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
+<script src="text.js"></script>
+
